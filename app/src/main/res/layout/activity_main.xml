@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="537dp"
+        app:srcCompat="@drawable/stars"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="239dp"
+        android:layout_height="194dp"
+        android:text="StellarWalker"
+        android:textColor="#ffffff"
+        android:textSize="12mm"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Start Exploring"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+</android.support.constraint.ConstraintLayout>
